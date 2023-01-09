@@ -33,6 +33,11 @@
 							<!-- magna sed accumsan arcu neque.</h2> -->
 						<!-- </header> -->
                         <h2>About Me</h2>
+                        <img src="images/aboutme.jpg" alt=""
+                             style="object-fit:contain;
+                                    height:220px;
+                                    float:left;
+                                    padding-right:20px"/>
 						<p>I am a second-year astrophysics PhD student at The Ohio State University. I currently study galactic chemical evolution and the delay times of Type Ia supernovae with my advisor, 
                         Dr. Jennifer Johnson. I am also a teaching assistant for an undergraduate astronomy course, and I give planetarium shows.</p>
                         <p>Originally from Portland, Oregon, I graduated from Whitman College in 2021 with a BA in astrophysics and music performance. In my spare time I enjoy rock climbing and playing 
@@ -45,14 +50,34 @@
 				<!-- Two -->
 					<section id="two">
 						<h2>My Research</h2>
+                        <h3>The delay times of Type Ia supernovae</h3>
                         <p>Type Ia supernovae, thermonuclear explosions of white dwarf stars, are a key driver of galactic chemical evolution because they produce roughly half
                         of the iron in the Universe. A complication for chemical evolution
                         models is that these events are delayed (by hundred of millions to billions of years) relative to the star formation events
-                        which produce their progenitors. The precise functional form of the delay time distribution is poorly
+                        which produce their progenitors. The precise functional form of the delay time distribution (DTD) is poorly
                         constrained by observations and is related to our uncertainty regarding the progenitor systems of Type
                         Ia supernovae. The aim of my current research is to better understand the consequences of the Type Ia
-                        delay time distribution for the chemical evolution of the Milky Way. To do this, I am using the <a href="https://github.com/giganano/VICE">VICE</a>
+                        DTD for the chemical evolution of the Milky Way. To do this, I am using the <a href="https://github.com/giganano/VICE">VICE</a>
                         package to run multi-zone chemical evolution simulations with radial migration of stars.</p>
+                        <img src="images/plot01.png" alt="" width=70%/>
+                        <p>The above figure demonstrates the effect the Type Ia DTD can have on chemical evolution simulations.
+                        Each panel plots histograms of the alpha-element-to-iron ratio, a key diagnostic of the Type Ia supernova contribution, for several radial zones of the Galaxy.
+                        The panels are divided vertically by distance from the Galactic midplane, with stars which lie farther away from the midplane appearing in the top panels.
+                        In the left-hand column, the DTD takes the form of a steep power law and most of the Type Ia supernovae explode soon after star formation.
+                        In the center column, an exponential DTD increases the fraction of Type Ia supernovae which are greatly delayed from their progenitors' formation.
+                        The result is that the exponential DTD produces many more stars with high values of [alpha/Fe], signifying a lower contribution from Type Ia yields.
+                        For comparison, abundances measured by the APOGEE survey are plotted in the right-hand column.
+                        <p>A paper on this topic is in preparation!</p>
+						<ul class="actions">
+							<li><a href="https://github.com/lodubay/galactic-dtd" class="button">Check out this project on GitHub</a></li>
+						</ul>
+                    </section>
+                
+                <!-- Three -->
+                    <section id="three">
+                        <h2>Previous Work</h2>
+                        <h3>Type Ia supernovae interacting with circumstellar medium</h3>
+                        <p>I completed this project at the University of Hawai'i Research Experience for Undergraduates (REU) in astronomy in Summer 2020 under the supervision of Dr. Ben Shappee.</p>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
@@ -69,6 +94,10 @@
 								<h3>Tortor metus commodo</h3>
 								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 							</article>
+						</div>
+                        <h3>Sensing noise in the LISA Pathfinder mission</h3>
+                        <p>I completed this project at the University of Alabama Huntsville heliophysics REU in Summer 2019 under the supervision of Dr. Tyson Littenberg.</p>
+						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
 								<h3>Quam neque phasellus</h3>
@@ -85,55 +114,40 @@
 								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 							</article>
 						</div>
-						<ul class="actions">
+						<!-- <ul class="actions">
 							<li><a href="#" class="button">Full Portfolio</a></li>
-						</ul>
+						</ul> -->
 					</section>
                 
-                <!-- Three -->
-					<section id="three">
+                <!-- Four -->
+					<section id="four">
 						<h2>Other Projects</h2>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
-								<h3>Magna sed consequat tempus</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<a href="https://vimeo.com/545154771" class="image fit thumb"><img src="images/thumbs/recital.png" alt="" /></a>
+								<a href="https://vimeo.com/545154771"><h3>Watch my senior cello recital!</h3></a>
+								<p>Performed May 2021 at Whitman College.</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
-								<h3>Ultricies lacinia interdum</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<a href="https://www.whitman.edu/newsroom/liam-dubay-performance" class="image fit thumb"><img src="images/thumbs/duet.jpg" alt="" /></a>
+								<a href="https://www.whitman.edu/newsroom/liam-dubay-performance"><h3>A do-it-yourself duet</h3></a>
+								<p>Just a small pandemic project.</p>
 							</article>
-							<article class="col-6 col-12-xsmall work-item">
+							<!-- <article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
 								<h3>Tortor metus commodo</h3>
 								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
-								<h3>Quam neque phasellus</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
-								<h3>Nunc enim commodo aliquet</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
-								<h3>Risus ornare lacinia</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
+							</article> -->
 						</div>
-						<ul class="actions">
+						<!-- <ul class="actions">
 							<li><a href="#" class="button">Full Portfolio</a></li>
-						</ul>
+						</ul> -->
 					</section>
 
-				<!-- Four -->
-					<section id="four">
+				<!-- Five -->
+					<section id="five">
 						<h2>Get In Touch</h2>
-						<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
+						<!-- <p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p> -->
 						<div class="row">
 							<!-- <div class="col-8 col-12-small"> -->
 								<!-- <form method="post" action="#"> -->

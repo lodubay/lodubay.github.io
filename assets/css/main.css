@@ -2622,12 +2622,21 @@ input, select, textarea {
 			flex-grow: 1;
 			margin: 0 0 2em 0;
 		}
+        
+        #header > .menu {
+            margin: 2em 0 -2em 0
+        }
 
 		#header strong, #header b {
 			color: #ffffff;
 		}
+        
+        #header h3 {
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 1em;
+        }
 
-		#header h2, #header h3, #header h4, #header h5, #header h6 {
+		#header h2, #header h4, #header h5, #header h6 {
 			color: #ffffff;
 		}
 
@@ -2646,7 +2655,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer .icons {
-		margin: 1em 0 0 0;
+		margin: 10em 0 0 0;
 	}
 
 		#footer .icons a {
